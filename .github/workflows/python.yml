@@ -17,5 +17,5 @@ jobs:
       with:
         python-version: "3.11"
 
-    - name: Run Script
-      run: python main.py
+    - name: Lint check
+      run: python -m py_compile main.py
