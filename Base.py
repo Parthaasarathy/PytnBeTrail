@@ -1,0 +1,5 @@
+Bike = input('Whats you bike? ')
+Name = input('Whas your Name? ')
+Name = Name.strip()
+Bike = Bike.title()
+print(f'My bike is {Bike} and my name is {Name}')
